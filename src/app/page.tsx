@@ -11,7 +11,7 @@ import { ChevronLeft, ChevronRight, ChevronUp, Settings } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { ChainIcon } from '../components/icons/ChainIcon';
 import { Badge } from '../components/ui/badge';
-import { useIsMobile } from '../hooks/use-mobile';
+import { useIsMobile } from '../hooks/useIsMobile';
 import { SecondaryNavBar } from '../components/SecondaryNavBar';
 import { PulsePageHeader } from '../components/PulsePageHeader';
 import ErrorBoundary from '../components/ErrorBoundary';

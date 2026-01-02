@@ -13,7 +13,7 @@ import { ScrollArea } from '../ui/scroll-area';
 import { ChainIcon } from '../icons/ChainIcon';
 import { cn } from '../../lib/utils';
 import { Skeleton } from '../ui/skeleton';
-import { useIsMobile } from '../../hooks/use-mobile';
+import { useIsMobile } from '../../hooks/useIsMobile';
 
 interface TokenTableProps {
   dataSource: Token[];

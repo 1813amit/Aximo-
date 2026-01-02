@@ -1,8 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { errorEmitter } from '../lib/error-emitter';
-import { FirestorePermissionError } from '../firebase/errors';
+import { errorEmitter } from '../../lib/error-emitter';
+import { FirestorePermissionError } from '../../firebase/errors';
 
 /**
  * An invisible component that listens for globally emitted 'permission-error' events.

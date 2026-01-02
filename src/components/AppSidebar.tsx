@@ -4,7 +4,7 @@
 import { cn } from "../lib/utils";
 import { AxiomIcon } from "./icons/AxiomIcon";
 import { BarChart, Book, Bot, Compass, Gift, GitBranch, Globe, History, Home, Layers, MessageSquare, Repeat, Settings, Star, TrendingUp, User, Wallet } from "lucide-react";
-import { useIsMobile } from "../hooks/use-mobile";
+import { useIsMobile } from "../hooks/useIsMobile";
 import { PulseIcon } from "./icons/PulseIcon";
 import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
 import { Twitter } from "lucide-react";
