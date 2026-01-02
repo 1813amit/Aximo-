@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { errorEmitter } from '../firebase/error-emitter';
+import { errorEmitter } from '../lib/error-emitter';
 import { FirestorePermissionError } from '../firebase/errors';
 
 /**
