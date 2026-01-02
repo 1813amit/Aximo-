@@ -1,7 +1,7 @@
 
 "use client";
 
-import { Token } from "@/lib/types";
+import { Token } from "../../lib/types";
 import { Button } from "../ui/button";
 import { BarChart, Copy, ExternalLink, Info } from "lucide-react";
 import Image from "next/image";

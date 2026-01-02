@@ -2,8 +2,8 @@
 "use client";
 
 import React from 'react';
-import { cn } from '@/lib/utils';
-import type { Token } from '@/lib/types';
+import { cn } from '../../lib/utils';
+import type { Token } from '../../lib/types';
 import { StatIcon } from './StatIcon';
 
 export const StatItem = React.memo(({ icon, value, className }: { icon: React.ReactNode, value?: React.ReactNode, className?: string }) => (

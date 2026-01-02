@@ -1,7 +1,7 @@
 
 "use client";
 
-import { Token } from "@/lib/types";
+import { Token } from "../../lib/types";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { Button } from "../ui/button";
 import { CalendarDays, CheckCircle } from "lucide-react";

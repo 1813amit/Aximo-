@@ -2,18 +2,18 @@
 "use client";
 
 import React from 'react';
-import type { Token } from '@/lib/types';
+import type { Token } from '../../lib/types';
 import { TokenRow } from './TokenRow';
-import { useTokenUpdates } from '@/hooks/use-token-updates';
+import { useTokenUpdates } from '../../hooks/use-token-updates';
 import { Button } from '../ui/button';
 import { Input } from '../ui/input';
 import { SlidersHorizontal, Flashlight, Zap } from 'lucide-react';
 import { Tooltip, TooltipContent, TooltipTrigger } from '../ui/tooltip';
 import { ScrollArea } from '../ui/scroll-area';
 import { ChainIcon } from '../icons/ChainIcon';
-import { cn } from '@/lib/utils';
+import { cn } from '../../lib/utils';
 import { Skeleton } from '../ui/skeleton';
-import { useIsMobile } from '@/hooks/use-mobile';
+import { useIsMobile } from '../../hooks/use-mobile';
 
 interface TokenTableProps {
   dataSource: Token[];

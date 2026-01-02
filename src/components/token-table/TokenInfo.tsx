@@ -1,8 +1,8 @@
 "use client";
 
 import React from 'react';
-import { cn } from '@/lib/utils';
-import type { Token } from '@/lib/types';
+import { cn } from '../../lib/utils';
+import type { Token } from '../../lib/types';
 import { Button } from '../ui/button';
 import { Copy, Globe, Link, Search, Users } from 'lucide-react';
 import { StatIcon } from './StatIcon';

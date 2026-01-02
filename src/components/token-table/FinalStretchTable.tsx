@@ -2,7 +2,7 @@
 "use client";
 
 import { TokenTable } from './TokenTable';
-import { FINAL_STRETCH_DATA } from '@/lib/mock-data';
+import { FINAL_STRETCH_DATA } from '../../lib/mock-data';
 
 export function FinalStretchTable() {
   return (

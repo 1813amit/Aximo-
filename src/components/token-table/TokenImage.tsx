@@ -3,8 +3,8 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { cn } from '@/lib/utils';
-import type { Token } from '@/lib/types';
+import { cn } from '../../lib/utils';
+import type { Token } from '../../lib/types';
 
 import { Button } from '../ui/button';
 import { ThumbsUp } from 'lucide-react';

@@ -5,7 +5,7 @@ import { HelpCircle, ListChecks, ChevronDown, BookmarkX, Keyboard, Volume2, Cros
 import { ChainIcon } from "./icons/ChainIcon";
 import Image from "next/image";
 import { Input } from "./ui/input";
-import { cn } from "@/lib/utils";
+import { cn } from "../lib/utils";
 
 const QuickBuyButton = ({children, className, active = false}: {children: React.ReactNode, className?: string, active?: boolean}) => (
     <Button 

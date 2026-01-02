@@ -87,8 +87,8 @@
 "use client";
 
 import React from 'react';
-import type { Token } from '@/lib/types';
-import { cn } from '@/lib/utils';
+import type { Token } from '../../lib/types';
+import { cn } from '../../lib/utils';
 import { Tooltip, TooltipContent, TooltipTrigger } from '../ui/tooltip';
 import { TokenImage } from './TokenImage';
 import { TokenInfo } from './TokenInfo';

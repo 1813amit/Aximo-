@@ -1,4 +1,4 @@
-import type { Token } from "@/lib/types";
+import type { Token } from "../../lib/types";
 import { ChefHatIcon } from "../icons/ChefHatIcon";
 import { CloverIcon } from "../icons/CloverIcon";
 import { GhostIcon } from "../icons/GhostIcon";

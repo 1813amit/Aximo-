@@ -5,8 +5,8 @@
 "use client";
 
 import { useState } from "react";
-import { cn } from "@/lib/utils";
-import { useIsMobile } from "@/hooks/use-mobile";
+import { cn } from "../lib/utils";
+import { useIsMobile } from "../hooks/use-mobile";
 import Image from "next/image";
 import { Bell, ChevronDown, Copy, CopyCheckIcon, CopyIcon, Menu, Search, Star, StarOff, StarOffIcon, User } from "lucide-react";
 import { AxiomIcon } from "./icons/AxiomIcon";

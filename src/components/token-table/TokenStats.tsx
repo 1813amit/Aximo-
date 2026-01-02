@@ -2,9 +2,9 @@
 "use client";
 
 import React from 'react';
-import { cn, formatCurrency, formatSubscript } from '@/lib/utils';
+import { cn, formatCurrency, formatSubscript } from '../../lib/utils';
 import { Flame, Flashlight, Zap, ZapIcon } from 'lucide-react';
-import type { Token } from '@/lib/types';
+import type { Token } from '../../lib/types';
 import { Button } from '../ui/button';
 import { FlameIcon } from '../icons/FlameIcon';
 import { SolIcon } from '../icons/SolIcon';

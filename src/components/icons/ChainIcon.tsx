@@ -1,4 +1,4 @@
-import type { Token } from '@/lib/types';
+import type { Token } from '../../lib/types';
 
 export function ChainIcon({ chain, className = "h-4 w-4" }: { chain: Token['chain'], className?: string }) {
   const commonClasses = `shrink-0 ${className}`;

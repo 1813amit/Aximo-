@@ -1,22 +1,22 @@
 'use client';
 
 import React, { Suspense, useEffect, useRef, useState } from 'react';
-import { NewPairsTable } from '@/components/token-table/NewPairsTable';
-import { FinalStretchTable } from '@/components/token-table/FinalStretchTable';
-import { MigratedTable } from '@/components/token-table/MigratedTable';
-import { AppHeader } from '@/components/AppHeader';
-import { AppFooter } from '@/components/AppFooter';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { NewPairsTable } from '../components/token-table/NewPairsTable';
+import { FinalStretchTable } from '../components/token-table/FinalStretchTable';
+import { MigratedTable } from '../components/token-table/MigratedTable';
+import { AppHeader } from '../components/AppHeader';
+import { AppFooter } from '../components/AppFooter';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../components/ui/tabs";
 import { ChevronLeft, ChevronRight, ChevronUp, Settings } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { ChainIcon } from '@/components/icons/ChainIcon';
-import { Badge } from '@/components/ui/badge';
-import { useIsMobile } from '@/hooks/use-mobile';
-import { SecondaryNavBar } from '@/components/SecondaryNavBar';
-import { PulsePageHeader } from '@/components/PulsePageHeader';
-import ErrorBoundary from '@/components/ErrorBoundary';
-import { MobileSettings } from '@/components/MobileSettings';
-import { cn } from '@/lib/utils';
+import { Button } from '../components/ui/button';
+import { ChainIcon } from '../components/icons/ChainIcon';
+import { Badge } from '../components/ui/badge';
+import { useIsMobile } from '../hooks/use-mobile';
+import { SecondaryNavBar } from '../components/SecondaryNavBar';
+import { PulsePageHeader } from '../components/PulsePageHeader';
+import ErrorBoundary from '../components/ErrorBoundary';
+import { MobileSettings } from '../components/MobileSettings';
+import { cn } from '../lib/utils';
 import Image from "next/image";
 
 // Move InstallWebAppBanner outside the main component

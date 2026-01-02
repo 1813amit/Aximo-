@@ -1,9 +1,9 @@
 "use client";
 import * as React from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 import { Book, ChevronUp, MessageSquare, Bell, Layout, Palette, Wifi, Link, ChevronDown } from "lucide-react";
-import { useIsMobile } from "@/hooks/use-mobile";
-import { cn } from "@/lib/utils";
+import { useIsMobile } from "../hooks/use-mobile";
+import { cn } from "../lib/utils";
 import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
 import { TooltipProvider } from "./ui/tooltip";
 import { useState } from "react";

@@ -2,7 +2,7 @@
 "use client";
 
 import { TokenTable } from './TokenTable';
-import { NEW_PAIRS_DATA } from '@/lib/mock-data';
+import { NEW_PAIRS_DATA } from '../../lib/mock-data';
 
 
 export function NewPairsTable() {
